@@ -1,0 +1,27 @@
+1. Which of the samples are likely to be controls or treated?
+Based off the visualisation prodcued from the python script, as well as analysing the normalised data. I would say samples 1 to 8 are likely to be the controls, and samples 9 to 16 are likely to be treated. As samples 1 to 8 have normalised number of AsiSI breaks equal (or are very close to) 0. The absence of breaks suggest to me that they have not been subjected to experimental conditions that induce AsiSI breaks. 
+
+
+
+
+2. Are there any you are uncertain of?
+Yes, I am uncertain with Sample 3
+
+
+
+
+3. Can you explain the samples in the uncertain group?
+There are various reasons for the uncertainty in this pariticular sample.
+
+a). One reason could be due to naturally occuring endogenous breaks within the genome, these would vary between samples and thus this particular sample may have had fewer endogenous breaks when compared to what I predicted to be the treated samples (samples 9 to 16). Which might explain its lower AsiSI break count when compared to these treated samples. 
+
+b). This uncertainty could also be explained vary varying chromotin state. Seeing that only a proportion of the AsiSI cut sites are actually cut due to the chromatin state of each cut site. It is possible that this uncertain sample (sample 3) had a different chromatin state and has less accessibility to AsiSI cute sides when compared to the treated samples. Making sample 3 less susceptible to AsiSI enzyme cleavage.
+
+
+
+
+4. What is the maximum percentage of possible AsiSI cut sites on chromosome 21 (as described in the chr21_AsiSI_sites.t2t.bed file) that is observed in a single sample?
+
+The maximum percantage of possible AsiSI cut sites on chromosome 21 is 14.08% (2 d.p)
+
+The code used to calculate this percentage can be found at the end of the broken_strings_question2.py script.
